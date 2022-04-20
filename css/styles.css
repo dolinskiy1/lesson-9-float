@@ -1,0 +1,113 @@
+.row {
+    border: 2px solid black;
+
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.item {
+    border: 2px solid red;
+    background-color: cadetblue;
+    padding: 20px 50px;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    border-radius: 4px;
+}
+
+.item_1 {
+    float: left;
+    margin: 20px;
+    width: 30px;
+}
+
+.item_2 {
+    float: right;
+    margin: 20px;
+    width: 30px;
+}
+
+.item_3 {
+    float: left;
+    margin: 20px;
+    width: 30px;
+}
+
+.column__right {
+    float: right;
+    margin: 30px 20px;
+}
+
+.item_4,
+.item_5,
+.item_6, 
+.item_7 {
+    float: right;
+    width: 30px;
+    margin: 10px 0 10px 20px;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 5px 30px;
+}
+
+.column__left {
+    float: left;
+    margin: 30px 20px;
+}
+
+.item_8,
+.item_9 {
+    float: left;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.item_10,
+.item_11 {
+    float: right;
+    width: 30px;
+    margin-left: 20px;
+}
+
+.item_12,
+.item_15 {
+    float: left;
+    width: 80px;
+    padding: 70px 70px;
+}
+
+.item_13,
+.item_14,
+.item_16,
+.item_17 {
+    width: 50px;
+    padding: 5px 50px;
+}
+
+.item_14,
+.item_17 {
+    margin-top: 55px;
+}
+
+.box {
+    display: block;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 398px;
+}
+
+.box__item {
+    float: left;
+    margin-left: 20px;
+}
+
+.block{
+    float: right;
+    margin: 20px;
+}
